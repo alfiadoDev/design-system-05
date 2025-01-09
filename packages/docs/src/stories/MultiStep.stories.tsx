@@ -16,7 +16,8 @@ export default {
         </Box>
       )
     }
-  ]
+  ],
+  tags: ['autodocs'],
 } as Meta<MultiStepProps>
 
 export const Primary: StoryObj<MultiStepProps> = {}

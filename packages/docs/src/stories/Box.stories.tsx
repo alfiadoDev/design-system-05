@@ -10,7 +10,8 @@ export default {
         <Text>Testando o elemento Box</Text>
       </>
     )
-  }
+  },
+  tags: ['autodocs'],
 } as Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}

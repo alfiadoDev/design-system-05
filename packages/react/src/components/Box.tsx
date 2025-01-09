@@ -10,3 +10,5 @@ export const Box = styled('div', {
 
 // eslint-disable-next-line prettier/prettier
 export interface BoxProps extends ComponentProps<typeof Box> { }
+
+Box.displayName = 'Box'

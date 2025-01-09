@@ -13,7 +13,8 @@ export default {
         </Box>
       )
     }
-  ]
+  ],
+  tags: ['autodocs'],
 } as Meta<TextAreaProps>
 
 export const Primary: StoryObj<TextAreaProps> = {

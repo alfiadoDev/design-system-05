@@ -85,3 +85,5 @@ export const Button = styled('button', {
 
 // eslint-disable-next-line prettier/prettier
 export interface ButtonProps extends ComponentProps<typeof Button> { }
+
+Button.displayName = 'Button'

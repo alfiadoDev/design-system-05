@@ -6,7 +6,8 @@ export default {
   component: Heading,
   args: {
     children: 'Custom Title',
-  }
+  },
+  tags: ['autodocs'],
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}

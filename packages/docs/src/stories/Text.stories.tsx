@@ -6,7 +6,8 @@ export default {
   component: Text,
   args: {
     children: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas, commodi nostrum qui voluptatem dolorum facilis officia velit sed libero repellendus dolorem aliquam repellat fugiat, iusto doloribus? Tempore, architecto ipsa.',
-  }
+  },
+  tags: ['autodocs'],
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}

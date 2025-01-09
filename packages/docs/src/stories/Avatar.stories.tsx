@@ -7,7 +7,8 @@ export default {
   args: {
     src: 'https://avatars.githubusercontent.com/u/61153857?v=4',
     alt: 'Alfiado Ngana'
-  }
+  },
+  tags: ['autodocs'],
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

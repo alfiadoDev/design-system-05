@@ -31,3 +31,5 @@ export const Text = styled('p', {
 
 // eslint-disable-next-line prettier/prettier
 export interface TextProps extends ComponentProps<typeof Text> { }
+
+Text.displayName = 'Text'

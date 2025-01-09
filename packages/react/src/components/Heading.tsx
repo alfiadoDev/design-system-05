@@ -26,3 +26,5 @@ export const Heading = styled('h2', {
 
 // eslint-disable-next-line prettier/prettier
 export interface HeadingProps extends ComponentProps<typeof Heading> { }
+
+Heading.displayName = 'Heading'
