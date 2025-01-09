@@ -30,7 +30,13 @@ const config: StorybookConfig = {
       config.base = '/design-system-05/'
     }
 
-    return config
+    return {
+      ...config,
+      build: {
+        ...config.build,
+        sourcemap: true,
+      }
+    }
   }
 };
 export default config;
