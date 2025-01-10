@@ -1,5 +1,5 @@
 import * as Avatar from '@radix-ui/react-avatar'
-import { styled } from '@ignite-ui/react/src/styles'
+import { styled } from '@ignite-alfaui/react/src/styles'
 
 export const AvatarContainer = styled(Avatar.Root, {
   borderRadius: '$full',
